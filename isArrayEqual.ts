@@ -1,0 +1,1 @@
+export const isArrayEqual = (a: Array<any>, b: Array<any>) => JSON.stringify(a) === JSON.stringify(b)
