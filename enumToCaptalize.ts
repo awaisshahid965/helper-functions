@@ -1,1 +1,5 @@
-export const enumToCaptalize = (val: string) => {}
+export const enumToCaptalize = (val: string) => {
+    if (!val) {
+        return val;
+    }
+}
