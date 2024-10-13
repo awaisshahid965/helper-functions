@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
             admin: usersData.slice(0, 50),
             normal: usersData.slice(50, usersData.length),
         },
-    })
+    });
 })
 
 app.listen(PORT, '0.0.0.0', () => {
